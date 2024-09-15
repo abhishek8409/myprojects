@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: space-between;
+}
+#flag{
+    height: 250px;
+    width: 800px;
+    background: black;
+    font-size: 200px;
+    color: white;
+    background-image: url(i2flag.jpeg);
+    background-size:contain;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#f{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(flag2.jpeg);
+    background-size: cover;
+}
